@@ -9,12 +9,34 @@
 
 body{
     background-color: black;
+    padding:20px;
 }
-
 
 article {
     background-color: grey;
-    margin-bottom: 0,75 rem;
+    border-radius: 10px;
+    margin-bottom:20px;
+}
+
+a{
+    color:Black;
+    font-weight:bold;
+}
+
+.btn-light{
+    font-weight:bold;
+}
+
+.btn-primary{
+    font-weight:bold;
+    background-color: black;
+    margin-bottom:20px;
+    float:right;
+    margin-right:20px;
+}
+
+#accordion{
+   margin-top:20px;
 }
 
 img{
@@ -29,24 +51,29 @@ h1{
     color:white;
 }
 
-h2 {
-    padding-top:15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    color:white;
+.social{
+    height:50px;
+    width: 50px;
 }
 
-h3 {  
+.footer {
+    background-color:  grey;
+    padding:12px;
+    margin-top:20%
+  }
+
+h4{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    margin-bottom:105px;
     color:white;
 }
 
-.btn-primary {
-    margin-left: 32%;
-    margin-bottom:20px;
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    size:12px;
 }
+
 
 .img-thumbnail {
     width: 100px;
@@ -54,8 +81,13 @@ h3 {
     float: left;
 }
 
+#multiCollapseExample1{
+    background-color:grey;
+}
 
-
+.card-body{
+    background-color:grey;
+}
 
 
 
@@ -69,11 +101,24 @@ h3 {
 
 /* Small devices (landscape phones, 576px and up)*/
 
-@media (max-width: 576px) {
+@media (max-width:767px) {
     img {
         width: 100px;
         height: 100px;
         float: left;
+    }
+    h2 {
+        padding-top:15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color:white;
+    }
+    
+    h3 {  
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        margin-bottom:105px;
+        color:white;
     }
 }
 
@@ -81,14 +126,48 @@ h3 {
 /* Medium devices (tablets, 768px and up)*/
 
 @media (min-width: 768px) {
-
+    img {
+        width: 120px;
+        height: 120px;
+        float: left;
+    }
+    h2 {
+        padding-top:15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 23px;
+        color:white;
+    }
+    
+    h3 {  
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        margin-bottom:105px;
+        color:white;
+    }
 }
 
 
 /* Large devices (desktops, 992px and up)*/
 
 @media (min-width: 992px) {
-
+    img {
+        width: 160px;
+        height: 160px;
+        float: left;
+    }
+    h2 {
+        padding-top:15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 27px;
+        color:white;
+    }
+    
+    h3 {  
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        margin-bottom:105px;
+        color:white;
+    }
 }
 
 
@@ -99,5 +178,18 @@ h3 {
         width: 200px;
         height: 200px;
         float: left;
+    }
+    h2 {
+        padding-top:15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        color:white;
+    }
+    
+    h3 {  
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        margin-bottom:105px;
+        color:white;
     }
 }
