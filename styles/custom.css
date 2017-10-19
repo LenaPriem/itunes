@@ -12,10 +12,14 @@ body{
     padding:20px;
 }
 
+.logo{
+    margin-bottom: 20px;
+}
+
 article {
     background-color: grey;
     border-radius: 10px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 a{
@@ -89,6 +93,31 @@ p{
     background-color:grey;
 }
 
+.collapsed{
+    color: white;
+}
+
+.card-header{
+    background-color:rgb(100, 100, 100);
+    border:none;
+}
+
+.table{
+    background-color:grey;
+}
+
+.grey {
+    background-color:rgb(100, 100, 100);
+}
+
+.card{
+    border:none;
+}
+
+a:hover{
+    color:black;
+    text-decoration: none;
+}
 
 
 /* MEDIA QUERIES
@@ -119,6 +148,14 @@ p{
         font-size: 10px;
         margin-bottom:105px;
         color:white;
+    }
+
+    .btn-light{
+        margin-left:20px;
+    }
+
+    .table{
+        font-size:12px;
     }
 }
 
@@ -173,7 +210,7 @@ p{
 
 /* Extra large devices (large desktops, 1200px and up)*/
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
     img {
         width: 200px;
         height: 200px;
