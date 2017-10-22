@@ -10,6 +10,7 @@
 body{
     background-color: black;
     padding:20px;
+    padding-bottom:20px;
 }
 
 .logo{
@@ -19,6 +20,7 @@ body{
 article {
     background-color: grey;
     border-radius: 10px;
+    margin-bottom:25px;
 }
 
 a{
@@ -38,17 +40,31 @@ a{
     font-size:16px;
 }
 
+.website{
+    width:80px;
+}
+
+.btn-light:hover, .open>.dropdown-toggle.btn-light {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
 .btn-primary{
     font-weight:bold;
     background-color: black;
     margin-bottom:20px;
     float:right;
     margin-right:20px;
+    border-color:black;
 }
 
-.website{
-    width:80px;
+.btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+    color: black;
+    background-color: white;
+    border-color: white;
 }
+
 
 #accordion{
    margin-top:20px;
@@ -63,20 +79,10 @@ p {
     text-align: justify;
 }
 
-h1{
-    color:white;
-    font-family: 'Roboto', sans-serif;
-}
-
-.social{
-    height:50px;
-    width: 50px;
-}
-
 .footer {
     background-color:  grey;
     padding:12px;
-    margin-top:20%
+    margin-top:20%;
   }
 
 h4{
@@ -96,7 +102,7 @@ h4{
 }
 
 .card-body{
-    background-color:grey;
+    background-color:rgb(100, 100, 100);
 }
 
 .collapsed{
@@ -108,12 +114,8 @@ h4{
     border:none;
 }
 
-.table{
-    background-color:grey;
-}
-
 .grey {
-    background-color:rgb(100, 100, 100);
+    background-color:grey;
 }
 
 .card{
@@ -124,8 +126,6 @@ a:hover{
     color:black;
     text-decoration: none;
 }
-
-
 
 .multi-collapse{
     margin-top:20px;
@@ -139,8 +139,31 @@ p{
 
 .btn-primary a:hover{
     background-color:white;
-} 
+}
 
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+h1::first-letter { 
+    font-size: 150%;
+    color: rgb(0, 174, 255);
+}
+
+.table-inverse.table-striped tbody tr:nth-of-type(odd){
+    background-color:rgb(100, 100, 100);
+}
+
+.table{
+    margin-left:-20px;
+    margin-top:-20px;
+    margin-bottom:-20px;
+    margin-right:-20px;
+    background-color:rgb(100, 100, 100);
+}
 
 
 /* MEDIA QUERIES
@@ -169,7 +192,7 @@ p{
 
     h3 {  
         font-family: 'Roboto', sans-serif;
-        font-size: 10px;
+        font-size: 16px;
         margin-bottom:105px;
         color:white;
     }
@@ -179,8 +202,27 @@ p{
     }
 
     .table{
-        font-size:12px;
+        font-size:16px;
     }
+
+    h4{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color:white;
+    }
+
+    .social{
+        height:30px;
+        width: 30px;
+        float:right;
+    }
+
+
+h1{
+    color:white;
+    font-family: 'Lobster', cursive;
+}
+
 }
 
 
@@ -206,6 +248,25 @@ p{
         margin-bottom:105px;
         color:white;
     }
+
+    h4{
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color:white;
+    }
+
+    .social{
+        height:50px;
+        width: 50px;
+        float:right;
+    }
+
+    h1{
+        color:white;
+        font-family: 'Lobster', cursive;
+        font-size:50px;
+}
+
 }
 
 
