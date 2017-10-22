@@ -73,7 +73,7 @@ img{
 
 .social{
     margin:0;
-    margin-bottom:5px;
+    margin-bottom:10px;
 }
 
 p {
@@ -83,7 +83,7 @@ p {
 
 .footer {
     background-color:  grey;
-    padding:12px;
+    padding-top:12px;
     margin-top:20%;
     border-radius: 10px;
   }
