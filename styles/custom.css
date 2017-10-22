@@ -9,8 +9,9 @@
 
 body{
     background-color: black;
-    padding:20px;
-    padding-bottom:20px;
+    padding-top :20px;
+    padding-right :20px;
+    padding-left :20px;
 }
 
 .logo{
@@ -74,6 +75,11 @@ img{
     margin:20px;
 }
 
+.social{
+    margin:0;
+    margin-bottom:5px;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
     text-align: justify;
@@ -99,10 +105,6 @@ h4{
 
 #multiCollapseExample1{
     background-color:grey;
-}
-
-.card-body{
-    background-color:rgb(100, 100, 100);
 }
 
 .collapsed{
@@ -157,14 +159,16 @@ h1::first-letter {
     background-color:rgb(100, 100, 100);
 }
 
-.table{
-    margin-left:-20px;
-    margin-top:-20px;
-    margin-bottom:-20px;
-    margin-right:-20px;
+.card-body{
     background-color:rgb(100, 100, 100);
+    padding:0rem;
 }
 
+.table{
+    margin-bottom:-20px;
+    padding-left:10rem;
+    background-color:rgb(100, 100, 100);
+}
 
 /* MEDIA QUERIES
 *********************************************/
@@ -214,7 +218,6 @@ h1::first-letter {
     .social{
         height:30px;
         width: 30px;
-        float:right;
     }
 
 
@@ -258,7 +261,6 @@ h1{
     .social{
         height:50px;
         width: 50px;
-        float:right;
     }
 
     h1{
