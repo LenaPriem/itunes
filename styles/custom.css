@@ -19,10 +19,10 @@ body{
 article {
     background-color: grey;
     border-radius: 10px;
-    margin-bottom: 20px;
 }
 
 a{
+    font-family: 'Roboto', sans-serif;
     color:Black;
     font-weight:bold;
 }
@@ -31,12 +31,23 @@ a{
     font-weight:bold;
 }
 
+.btn-light h3{
+    font-weight:bold;
+    margin-bottom:0px;
+    color:black;
+    font-size:16px;
+}
+
 .btn-primary{
     font-weight:bold;
     background-color: black;
     margin-bottom:20px;
     float:right;
     margin-right:20px;
+}
+
+.website{
+    width:80px;
 }
 
 #accordion{
@@ -48,11 +59,13 @@ img{
 }
 
 p {
+    font-family: 'Roboto', sans-serif;
     text-align: justify;
 }
 
 h1{
     color:white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .social{
@@ -67,17 +80,10 @@ h1{
   }
 
 h4{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color:white;
 }
-
-p{
-    font-family: 'Times New Roman', Times, serif;
-    color:white;
-    size:12px;
-}
-
 
 .img-thumbnail {
     width: 100px;
@@ -120,6 +126,23 @@ a:hover{
 }
 
 
+
+.multi-collapse{
+    margin-top:20px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    size:12px;
+}
+
+.btn-primary a:hover{
+    background-color:white;
+} 
+
+
+
 /* MEDIA QUERIES
 *********************************************/
 
@@ -136,15 +159,16 @@ a:hover{
         height: 100px;
         float: left;
     }
+
     h2 {
         padding-top:15px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 20px;
         color:white;
     }
-    
+
     h3 {  
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Roboto', sans-serif;
         font-size: 10px;
         margin-bottom:105px;
         color:white;
@@ -164,20 +188,21 @@ a:hover{
 
 @media (min-width: 768px) {
     img {
-        width: 120px;
-        height: 120px;
+        width: 200px;
+        height: 200px;
         float: left;
     }
+
     h2 {
         padding-top:15px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 23px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
         color:white;
     }
-    
+
     h3 {  
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
         margin-bottom:105px;
         color:white;
     }
@@ -187,46 +212,10 @@ a:hover{
 /* Large devices (desktops, 992px and up)*/
 
 @media (min-width: 992px) {
-    img {
-        width: 160px;
-        height: 160px;
-        float: left;
-    }
-    h2 {
-        padding-top:15px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 27px;
-        color:white;
-    }
-    
-    h3 {  
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 17px;
-        margin-bottom:105px;
-        color:white;
-    }
 }
 
 
 /* Extra large devices (large desktops, 1200px and up)*/
 
 @media (min-width: 1300px) {
-    img {
-        width: 200px;
-        height: 200px;
-        float: left;
-    }
-    h2 {
-        padding-top:15px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
-        color:white;
-    }
-    
-    h3 {  
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
-        margin-bottom:105px;
-        color:white;
-    }
 }
