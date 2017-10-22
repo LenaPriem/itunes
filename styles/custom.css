@@ -14,14 +14,10 @@ body{
     padding-left :20px;
 }
 
-.logo{
-    margin-bottom: 20px;
-}
-
 article {
     background-color: grey;
     border-radius: 10px;
-    margin-bottom:25px;
+    margin-top:35px;
 }
 
 a{
@@ -162,6 +158,11 @@ h1::first-letter {
 .card-body{
     background-color:rgb(100, 100, 100);
     padding:0rem;
+}
+
+.card-body2{
+    background-color:grey;
+    padding:1.25rem;
 }
 
 .table{
